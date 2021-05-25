@@ -1,5 +1,9 @@
+body {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
 .calculator {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -8,7 +12,7 @@
   width: 250px;
   min-height: 300px;
   border-radius: 4px;
-  background:#242424;
+  background: #242424;
 }
 .calculator input {
   width: 100%;
@@ -29,13 +33,13 @@
   color: rgba(255, 255, 255, 0.623);
   font-size: 2rem;
   font-weight: 100;
-  background:#3a3a3a00;
-  transition: background .3s ease;
+  background: #3a3a3a00;
+  transition: background 0.3s ease;
 }
 
-.calculator button:hover{
-    background:#5e5d5dab;
-    border-radius: 5px ;
+.calculator button:hover {
+  background: #5e5d5dab;
+  border-radius: 5px;
 }
 
 .xd {
