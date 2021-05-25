@@ -4,7 +4,7 @@ import { useReducer } from "react";
 import { calculatorReducer } from "./calculatorReducer";
 
 export const App = () => {
-  const [state, dispatch] = useReducer(calculatorReducer, "");
+  const [state, dispatch] = useReducer(calculatorReducer, "0");
   const data = [
     "CE",
     "C",
